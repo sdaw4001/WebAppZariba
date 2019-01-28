@@ -1,0 +1,206 @@
+.app-whole{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, #62ADDE ,#123851);
+}
+
+.button-login{
+    background-color: #609AC9;    
+    height: 40px    ;   
+    width: 300px;
+    border: none;
+    color: white;
+    margin: 25% 19% 20% 71%;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px white;
+    box-sizing: 30px;
+    animation: pulse 1s ;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 white;
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px white;
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 white;
+    }
+  }
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 white;
+      box-shadow: 0 0 0 0 white;
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px white;
+        box-shadow: 0 0 0 10px white;
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 white;
+        box-shadow: 0 0 0 0 white;
+    }
+  }
+.button-login:hover{
+    background-color: #4B91C6;
+    animation: none;
+
+}
+
+.header-login{
+    width: 10%;
+    margin-left: 30%;
+}
+
+.login-form{
+    margin-left: 37%;
+    margin-top: 10px;
+    background-color: #123851;
+    height: 375px;
+    width: 300px;
+    position: relative;
+}
+.banner-login{
+    background-color: #62ADDE;
+    height: 28px;
+    margin-top: 9px;
+}
+.btn-switch-login{
+    margin: 0 0 0 141px;
+    width: 30px;
+    height: 28px;
+    background: #62ADDE;
+    background-image: url("../../logos/login.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+    cursor: pointer;
+}
+.btn-switch-login:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+.btn-switch-register{
+    margin: 0 0 0 141px;
+    width: 30px;
+    height: 28px;
+    background: #62ADDE;
+    background-image: url("../../logos/user.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+    cursor: pointer;
+}
+.btn-switch-register:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.title-login{
+    color: white;
+    margin-left: 42%;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.title-register{
+    color: white;
+    margin-left: 30%;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.login-form-register-close-btn{
+    margin-left: 13%;
+    height: 21px;
+    border: none;
+    background-color: #123851;
+    background-image: url("../../logos/Group\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: 13px;
+    width: 30px; 
+    background-position: center;
+}
+.login-form-login-close-btn{
+    margin-left: 30%;
+    height: 21px;
+    border: none;
+    background-color: #123851;
+    background-image: url("../../logos/Group\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: 13px;
+    width: 30px; 
+    background-position: center;
+}
+.banner-login-form{
+    background-color: rgb(29, 112, 175);
+    height: 28px;
+    margin-top: 9px;
+    background-image: url("../../logos/Group\ 3.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textfield-login-email{
+    margin-top: 10%;
+    width: 100%;
+    height: 25px;
+    border: none;
+    margin-bottom: 6px;
+}
+.textfield-login-password{
+    margin-top: 10px; 
+    width: 100%;
+    height: 25px;
+    border: none;
+    margin-bottom: 6px;
+}
+
+.button-in-loginform-login{
+    width: 100%;
+    height: 30px;
+    border: none;
+    color: white;
+    font-weight: lighter ;
+    font-size: 20px;
+    background-color: #62ADDE;
+    background-image: url("../../logos/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 10px;
+    margin-top: 150px;
+}
+
+.login-fo{
+    width: 96%;
+    margin-left: 2%;
+}
+.button-in-loginform-register{
+    width: 100%;
+    height: 30px;
+    border: none;
+    color: white;
+    font-weight: lighter ;
+    font-size: 20px;
+    background-color: #62ADDE;
+    background-image: url("../../logos/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 10px;
+    margin-top: 107px;
+}
+.button-in-loginform:hover{
+    background-color: #4B91C6;
+}
+.app-login-popup{
+    margin-left: 37%;
+
+}
